@@ -22,3 +22,8 @@ OpenFrameworks version used is 0071.
 Used addons (although they are already included as local copies):
 	- ofxNetwork
 	- ofxXmlSettings
+
+
+
+NOTE:
+This project is part of a three-apps project I developed for a friend's birthday party. See the UDPSender README for further details.
