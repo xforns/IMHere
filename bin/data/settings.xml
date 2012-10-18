@@ -1,0 +1,24 @@
+<port>10552</port>
+<movies>
+	<movie>
+		<baseline>true</baseline>
+		<name>movies/movie1.mpg</name>
+		<event>d1</event>
+		<key>1</key>
+	</movie>
+	<movie>
+		<name>movies/movie2.mpg</name>
+		<event>d2</event>
+		<key>2</key>
+	</movie>
+	<movie>
+		<name>movies/movie3.mpg</name>
+		<event>d3</event>
+		<key>3</key>
+	</movie>
+	<movie>
+		<name>movies/movie4.mpg</name>
+		<event>d4</event>
+		<key>4</key>
+	</movie>
+</movies>
