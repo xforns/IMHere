@@ -2,20 +2,20 @@ Extremely silly OpenFrameworks app that permits to show several videos, which ca
 
 It is based on an XML file (located at bin/data), with the following structure:
 
-<port>10552</port>						Specifies the port to which messages are being sent (IP is assumed local)
-<movies>								List of movies
-	<movie>
-		<baseline>true</baseline>		Baseline movie: this movie loops forever, and when other movies end, this 										movie is again played.
-		<name>movies/movie1.mpg</name>	Name and location of the movie.
-		<event>d1</event>				Received UDP message that fires this movie.
-		<key>1</key>					Mapped key that permits to fire this movie aswell.
-	</movie>
-	<movie>								In this case, this movie falls back to baseline=false.
-		<name>movies/movie2.mpg</name>
-		<event>d2</event>
-		<key>2</key>
-	</movie>
-	...
+<port>10552</port>: Specifies the port to which messages are being sent (IP is assumed local)
+<movies>: List of movies
+<movie>
+<baseline>true</baseline>: Baseline movie: this movie loops forever, and when other movies end, this movie is again played.
+<name>movies/movie1.mpg</name>: Name and location of the movie.
+<event>d1</event>: Received UDP message that fires this movie.
+<key>1</key>: Mapped key that permits to fire this movie aswell.
+</movie>
+<movie>: In this case, this movie falls back to baseline=false.
+<name>movies/movie2.mpg</name>
+<event>d2</event>
+<key>2</key>
+</movie>
+…
 </movies>
 
 OpenFrameworks version used is 0071.
